@@ -1,0 +1,23 @@
+.nav {
+    grid-column: 3 / 5;
+    /* margin-top: 2rem;
+    margin-bottom: 2rem; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.lisNav {
+ display: flex;
+ flex-wrap: wrap;
+ padding: 10px;
+}
+
+.lisNav li a {
+ display: block;
+ padding: 10px;
+ text-decoration: none;
+ color: #ffffff;
+ letter-spacing: 1rem;
+ max-height: 20px;
+}
