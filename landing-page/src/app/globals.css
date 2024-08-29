@@ -1,0 +1,29 @@
+* {
+ margin: 0px;
+}
+
+h1,h2,h3,h4,p {
+  margin: 0px;
+}
+
+ul,li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button, input {
+  display: block;
+  font-size: 1rem;
+}
+
+.container {
+  max-width: 60rem;
+  padding: 0 1rem;
+}
+
