@@ -2,6 +2,12 @@
  margin: 0px;
 }
 
+body {
+  display: grid;
+  color: white;
+  grid-template-columns: 1fr 120px minmax(300px, 800px ) 1fr;
+}
+
 h1,h2,h3,h4,p {
   margin: 0px;
 }

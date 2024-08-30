@@ -5,15 +5,17 @@
     display: flex;
     align-items: center;
     justify-content: end;
+    
 }
 
 .lisNav {
  display: flex;
  flex-wrap: wrap;
- padding: 10px;
+ /* padding: 10px; */
 }
 
 .lisNav li a {
+    background-color: blueviolet;
  display: block;
  padding: 10px;
  text-decoration: none;
