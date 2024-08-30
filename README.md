@@ -1,5 +1,4 @@
-# teste-front-end-hypesoft
-https://github.com/Wesley-Jesus/teste-front-end-hypesoft.git
+
 # Clone esse repositório
 $ git clone <https://github.com/Wesley-Jesus/teste-front-end-hypesoft.git>
 
