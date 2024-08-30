@@ -1,19 +1,10 @@
 import styles from "./NavBar.module.css";
 import Image from "next/image";
 
-
 const NavBar = () => (
+  <>
   <nav className={styles.nav}>
-    <Image
-              src="public\images\about_image2.svg"
-              alt="Vercel Logo"
-              // className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-    <ul
-    className={styles.lisNav}>
+    <ul className={styles.lisNav}>
       <li>
         <a href="#about">ABOUT</a>
       </li>
@@ -28,5 +19,14 @@ const NavBar = () => (
       </li>
     </ul>
   </nav>
+    <Image
+      src="/vercel.svg"
+      alt="Vercel Logo"
+      className={styles.vercelLogo}
+      width={500}
+      height={800}
+      priority
+    />
+    </>
 );
 export default NavBar;

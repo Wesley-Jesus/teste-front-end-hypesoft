@@ -5,21 +5,30 @@
     display: flex;
     align-items: center;
     justify-content: end;
+    position: relative;
+    /* z-index: 2; */
     
 }
 
 .lisNav {
  display: flex;
  flex-wrap: wrap;
- /* padding: 10px; */
+}
+
+.vercelLogo {
+    position: absolute;
+    bottom: 50rem;
+    left: 50rem;
+    z-index: 1;
 }
 
 .lisNav li a {
+    min-height: 25rem;
     background-color: blueviolet;
- display: block;
- padding: 10px;
- text-decoration: none;
- color: #ffffff;
- letter-spacing: 1rem;
- max-height: 20px;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    letter-spacing: 1rem;
+    max-height: 20px;
 }
